@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Daily finance Automation">
+<test name="Add cost from CSV file and total cost check">
+        <groups>
+            <run>
+                <include name="smoke"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="testrunner.AddCostTestRunner"></class>
+        </classes>
+    </test>
+    <test name="Item search">
+        <groups>
+            <run>
+                <include name="smoke"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="testrunner.SearchItemTestRunner"></class>
+        </classes>
+    </test>
+
+</suite>
