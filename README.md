@@ -21,32 +21,41 @@ This project focuses on automating the testing process for key functionalities o
 8.Create Regression Suite and Smoke Suite, ANd run them individually.
 
 ## Prerequisites
-• Selenium as automation tool;
+##### • Selenium as automation tool;
 
-• TestNG as framework;
+##### • TestNG as framework;
 
-• IDE like IntelliJ IDEA
+##### • IDE like IntelliJ IDEA;
 
-• Gradle for dependency management
+##### • Gradle for dependency management;
 
-• Data manipulation: Simple JSON and CSV Parser
+##### • Data manipulation: Simple JSON and CSV Parser.
+
+## How to run this project
+
+##### • Clone the project;
+
+##### • Open the project from IntellIJ; 
+
+##### • File>Open>Select and expand folder>Open as project
+
+##### • Command for run smoke and regression suit: gradle clean test -PsuiteName="smokeSuite.xml" & -PsuiteName="regressionSuite.xml"
+
+## Command for generating Allure report:
+
+##### allure generate allure-results --clean -output
+
+##### allure serve allure-results
 
 
-Output
-#Report & Automation Showcasing of Practice webform for learners :
+## Output
 
-
-
-
-
-
-
-
-
+### Regression Suite Report
 
 ![Allure_Report(Overview)](https://github.com/user-attachments/assets/408e5b85-a246-4cae-b60e-2e8c8d9e0d87)
 ![Allure_Report(Behaviors)](https://github.com/user-attachments/assets/e60d2c8b-6cc2-4b71-8e8c-8e426e3b830a)
 
+### Project Showcasing of Regression Suite Automation
 
 https://github.com/user-attachments/assets/327f9489-3988-4168-912e-dc116ec5b14b
 
